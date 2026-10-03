@@ -1,0 +1,23 @@
+# Disposable free demo. Accounts/history reset when the service restarts.
+services:
+  - type: web
+    name: finspark-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: FINSPARK_DEMO_MODE
+        value: true
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: HF_TOKEN
+        sync: false
+      - key: SENDER_EMAIL
+        sync: false
+      - key: SENDER_PASSWORD
+        sync: false

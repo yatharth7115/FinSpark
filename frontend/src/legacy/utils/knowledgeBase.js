@@ -1,0 +1,33 @@
+export const LANGUAGES = [
+  { code: 'en', name: 'English', flag: '🇬🇧', speechCode: 'en-US' },
+  { code: 'es', name: 'Spanish', flag: '🇪🇸', speechCode: 'es-ES' },
+  { code: 'fr', name: 'French', flag: '🇫🇷', speechCode: 'fr-FR' },
+  { code: 'de', name: 'German', flag: '🇩🇪', speechCode: 'de-DE' },
+  { code: 'hi', name: 'Hindi', flag: '🇮🇳', speechCode: 'hi-IN' },
+  { code: 'ta', name: 'Tamil', flag: '🇮🇳', speechCode: 'ta-IN' },
+  { code: 'te', name: 'Telugu', flag: '🇮🇳', speechCode: 'te-IN' },
+  { code: 'kn', name: 'Kannada', flag: '🇮🇳', speechCode: 'kn-IN' },
+  { code: 'bn', name: 'Bengali', flag: '🇮🇳', speechCode: 'bn-IN' },
+  { code: 'gu', name: 'Gujarati', flag: '🇮🇳', speechCode: 'gu-IN' },
+  { code: 'mr', name: 'Marathi', flag: '🇮🇳', speechCode: 'mr-IN' },
+  { code: 'ja', name: 'Japanese', flag: '🇯🇵', speechCode: 'ja-JP' },
+  { code: 'zh', name: 'Chinese', flag: '🇨🇳', speechCode: 'zh-CN' },
+  { code: 'pt', name: 'Portuguese', flag: '🇵🇹', speechCode: 'pt-BR' },
+];
+
+export const GREETINGS = {
+  en: 'Hello! 👋 How may I help you today? I can assist you with navigation, answer questions, and help you explore FinSpark.',
+  es: '¡Hola! 👋 ¿Cómo puedo ayudarte hoy? Puedo ayudarte con la navegación y responder preguntas sobre FinSpark.',
+  fr: 'Bonjour! 👋 Comment puis-je vous aider? Je peux vous assister dans la navigation et répondre aux questions.',
+  de: 'Hallo! 👋 Wie kann ich dir heute helfen? Ich kann dir bei der Navigation und Fragen zu FinSpark helfen.',
+  hi: 'नमस्ते! 👋 मैं आपकी आज कैसे मदद कर सकता हूँ? मैं नेविगेशन, सवालों के जवाब दे सकता हूँ, और FinSpark को एक्सप्लोर करने में मदद कर सकता हूँ।',
+  ta: 'வணக்கம்! 👋 நான் இன்று உங்களுக்கு எவ்வாறு உதவ முடியும்? நான் நேவிகேஷன் மற்றும் கேள்விகளுக்கு பதிலளிக்க முடியும்.',
+  te: 'నమస్కారం! 👋 నేను ఈ రోజు మీకు ఎలా సహాయం చేయగలను? నేను నావిగేషన్ మరియు ప్రశ్నలకు సమాధానం ఇవ్వగలను.',
+  kn: 'ಹಲೋ! 👋 ನಾನು ಇಂದು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು? ನಾವು ನೆವಿಗೇಷನ್ ಮತ್ತು ಪ್ರಶ್ನೆಗಳಿಗೆ ಸಹಾಯ ಮಾಡಬಹುದು.',
+  bn: 'হ্যালো! 👋 আমি আজ আপনাকে কীভাবে সাহায্য করতে পারি? আমি নেভিগেশন এবং প্রশ্নের উত্তর দিতে পারি।',
+  gu: 'હેલો! 👋 હું આજ તમને કેવી રીતે મદદ કરી શકું છું? હું નેવિગેશન અને પ્રશ્નોનો જવાબ આપી શકું છું.',
+  mr: 'नमस्कार! 👋 मैं आज आपकी कैसे मदद कर सकता हूं? मैं नेविगेशन और प्रश्नों का उत्तर दे सकता हूं।',
+  ja: 'こんにちは! 👋 今日はどのようにお手伝いできますか? ナビゲーションと質問にお答えできます。',
+  zh: '你好! 👋 我今天能如何帮助你? 我可以帮助导航和回答问题。',
+  pt: 'Olá! 👋 Como posso ajudar hoje? Posso ajudar com navegação e responder perguntas sobre FinSpark.',
+};

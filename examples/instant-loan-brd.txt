@@ -1,0 +1,20 @@
+INSTANT LOAN ORIGINATION
+Business requirements - Fictional sample specification
+
+Identity & onboarding
+Verify customer identity using PAN and Aadhaar before onboarding. Collect full name and date of birth.
+
+Credit & eligibility
+Retrieve a CIBIL credit report and assess the applicant credit score before a lending decision.
+
+Loan application
+Create a loan application with loan amount, tenure and interest rate.
+
+Agreement execution
+Obtain an electronic signature on the approved loan agreement. Record document ID and signer name.
+
+Fund disbursement
+Transfer funds to the verified bank account using account number and IFSC code.
+
+Customer notification
+Send an SMS notification to the customer phone number when the workflow completes.
