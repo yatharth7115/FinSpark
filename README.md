@@ -1,6 +1,6 @@
 # FinSpark
 
-[Open the hosted workbench (access restricted)](https://finspark-integration-workbench.y63753374.chatgpt.site/) · [Deployment guide](docs/deployment.md)
+[Live demo](https://yatharth7115.github.io/FinSpark/) · [Private preview](https://finspark-integration-workbench.y63753374.chatgpt.site/) · [Deployment guide](docs/deployment.md)
 
 Source repository: [yatharth7115/FinSpark](https://github.com/yatharth7115/FinSpark). This copy includes the restructured frontend, backend, documentation, examples and automated checks from the original [FinSpark project](https://github.com/Adwik1-2/FinSpark).
 
